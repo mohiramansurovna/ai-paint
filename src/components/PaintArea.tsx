@@ -112,7 +112,6 @@ const PaintArea = forwardRef<PaintAreaRef, PaintAreaProps>(({
     if (!svgRef.current) return;
 
     const svgElement = svgRef.current;
-    const rect = svgElement.getBoundingClientRect();
     
     // Get the full viewport dimensions to ensure complete coverage
     const viewportWidth = window.innerWidth;
